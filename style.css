@@ -1,0 +1,42 @@
+h2 {
+  font-size: 15px;
+  margin: 10px;
+}
+#origin {
+  height: 75px;
+  width: 350px;
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 2px;
+}
+#email {
+  width:350px;
+  margin: 10px;
+  border-radius: 2px;
+}
+#fullname {
+  width:350px;
+  margin: 10px;
+  border-radius: 2px;
+}
+#profilepic{
+  margin: 10px;
+}
+.basicinfo {
+  border: 1px solid black;
+  width: 375px;
+  height:450px;
+}
+#lightside {
+  margin: 10px;
+}
+#howtoget {
+  height: 75px;
+  width: 350px;
+  border: 1px solid black;
+}
+.abilities{
+  border: 1px solid black;
+  width: 375px;
+  height: 300px;
+}
