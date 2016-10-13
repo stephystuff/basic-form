@@ -5,20 +5,39 @@ h2 {
   height: 75px;
   width: 350px;
   border: 2px solid black;
-  border-radius: 2px;
+  border-radius: 3px;
+}
+#objects {
+  border-radius: 3px;
+  width: 35px;
+}
+#favability {
+  border-radius: 3px;
+  width: 350px;
 }
 #email {
   width:350px;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 #fullname {
   width:350px;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 #howtoget {
   height: 75px;
   width: 350px;
-  border: 1px solid black;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+#mentor {
+  border-radius: 3px;
+  width: 350px;
+}
+#password {
+  border-radius: 3px;
+}
+#date {
+  border-radius: 3px;
 }
 #content div {
   padding: 10px;
@@ -33,7 +52,16 @@ h2 {
 #content-right {
   width: 375px;
 }
+#startover {
+  background-color: #66bbdd;
+  border-color: #0000ff;
+  border-radius: 3px;
+}
+#apply {
+  background-color: #66bbdd;
+  border-color: #0000ff;
+  border-radius: 3px;
+}
 footer {
-  margin-bottom: 10px;
-  float: left;
+  clear:both;
 }

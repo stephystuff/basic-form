@@ -17,7 +17,7 @@
                 <legend>Basic info</legend>
                   <h2> Full Name </h2>
                   <label for='fullname'> </label>
-                  <input type='text' name='fullname' id='fullname' placeholder='Full Name'>
+                  <input type='text' name='fullname' id='fullname' placeholder='Full Name' required>
 
               <aside>
                   <h2> Profile Pic </h2>
@@ -28,7 +28,7 @@
                 <aside>
                   <h2> Email </h2>
                   <label for='email'></label>
-                  <input type='email' id='email' placeholder='luke@sky.com'>
+                  <input type='email' id='email' placeholder='luke@sky.com' required>
                 </aside>
 
                 <aside>
@@ -41,7 +41,7 @@
 
                 <aside>
                   <h2> Origin Story </h2>
-                  <textarea id='origin'></textarea>
+                  <textarea required id='origin'></textarea>
                   <label for='origin'></label>
                 </aside>
               </fieldset>
@@ -59,9 +59,7 @@
         </select>
 
         <h2> How many objects can you levitate at once? </h2>
-        <aside>
-          <input type='number' min='0'>
-        </aside>
+          <input type='number' min='0' id='objects'>
 
         <h2> Favorite Ability </h2>
         <input type='text' name='favability' id='favability' placeholder='precognition'>
@@ -91,15 +89,18 @@
         <label for='mentor'></label>
 
         <h2> Application Date </h2>
-        <input type='date'>
+        <input type='date' id='date' required>
 
         <h2> Application Password </h2>
-        <input type='text' name='password' id='password'>
+        <input type='text' name='password' id='password' required>
         <label for='password'></label>
 
         <h2> How do you get to the dark side? </h2>
         <textarea id='howtoget'></textarea>
         <label for='howtoget'></label>
+
+        <input type='reset' name='startover' value='Start Over' id='startover'>
+        <input type='submit' name='apply' value='Apply' id='apply'>
       </fieldset>
     </div>
   </div>
@@ -108,7 +109,7 @@
 
   </body>
 
-  <footer> 2016 The Republic</footer>
+  <footer> © 2016 The Republic</footer>
 
 
 
